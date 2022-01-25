@@ -8,6 +8,8 @@ You will find here different Projects I have worked on (from the scratch) :muscl
 
 #### 2️⃣  Environmental Indicator for G8 countries (MySQL and Python). Python: API requests. SQL: Queries and subqueries.
 
-#### 3️⃣ Figures in Python. Seaborn and Matplotlib. I created two reports using subplots in Python with te libraries mentioned before.(Artistic Mode: ON :boom:)
+#### 3️⃣ Displaying figures in Python using Seaborn and Matplotlib. I created two reports using subplots in Python with te libraries mentioned before.(Artistic Mode: ON :boom:)
 
-#### 4️⃣ Figures in Python. Seaborn and Matplotlib. I created two reports using subplots in Python with te libraries mentioned before.
+#### 4️⃣ Streamlit Project (Patient Survival Prediction 🏥):  Shared Streamlit as a result of cleaning a dataset, transforming data and displaying the most important insights.
+
+#### 5️⃣ Tableau Project: 2 Dashboards from a data analysis of PayLOCATOR Datasets (Bank transactions)
