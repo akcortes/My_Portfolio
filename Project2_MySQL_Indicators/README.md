@@ -1,5 +1,5 @@
 
-Green Indicator - Ana Katherine Cortes Sobrino
+# Green Indicator for G8 Countries- Python (API Response Python and MySQL Data cleaning and transforming)
 
 Jira: https://ironhack.atlassian.net/jira/software/projects/SPE/boards/14
 
@@ -26,12 +26,9 @@ Indicator:
 
 
 
-PRESENTATION
-In The Folder
+# SQL SCRIPT
 
 
-
-SQL SCRIPT
 CREATE TEMPORARY TABLE Result_landFR
 WITH max_min AS 
 (
