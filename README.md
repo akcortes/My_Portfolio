@@ -2,7 +2,7 @@
 
 Welcome to my Portfolio!
 
-You will find here different Projects I have worked on (from the scratch) :muscle:
+You will find here different Projects I have worked on (from scratch) :muscle:
 
 #### :one:  Basic Hangman game (Made in Python). My first Project using Python.(Warning: Do not expect an advanced code :joy: , but it is nice to see how we can do something great with basic Python)
 
