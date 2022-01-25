@@ -22,7 +22,8 @@ My data bootcamp took very seriously preparation for tomorrow is hard work today
 
 ## Python:
 •	 Basic operations
-•	 Numpy, Pandas
+•	 Numpy
+•	 Pandas
 •	Webscrapping with BeautifulSoup
 •	Data Cleaning
 •	Encoding
