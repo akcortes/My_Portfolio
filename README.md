@@ -8,7 +8,7 @@ You will find here different Projects I have worked on (from scratch) :muscle:
 
 #### :one:  Basic Hangman game (Made in Python). My first Project using Python.(It is nice to see how we can do something great with basic Python)
 
-#### 2️⃣  Environmental Indicator for G8 countries (MySQL and Python). Python: API requests. SQL: Queries,subqueries,join.
+#### 2️⃣  Environmental Indicator for G8 countries (MySQL and Python). Python: API requests. SQL: Queries,subqueries,JOIN.
 
 #### 3️⃣ Displaying figures in Python using Seaborn and Matplotlib. I created two reports using subplots in Python with the libraries mentioned before.(Artistic Mode: ON :boom:)
 
