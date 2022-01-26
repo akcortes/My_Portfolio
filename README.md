@@ -18,7 +18,7 @@ You will find here different Projects I have worked on (from scratch) :muscle:
 
 # Labs 👩‍🏭
 
-My data bootcamp took very seriously preparation for tomorrow is hard work today. You can check in this folder the number of labs I have worked on so far (more than 60, and counting)
+My data bootcamp took very seriously "Preparation for tomorrow is hard work today". You can check in this folder the number of labs I have worked on so far (more than 60, and counting)
 
 ## Python:
 •	 Basic operations
