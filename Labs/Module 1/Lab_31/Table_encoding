@@ -1,0 +1,29 @@
+Method,Library,Code,Result:
+
+
+Dummy Encoder	
+Pandas	
+dummy_encoded = pd.get_dummies(data=df,drop_first=True)	
+Result in file python
+
+
+Backward Difference Coding	
+import category_encoders as ce	
+"cols = ['Profession','Bank_dep','Risk']
+enc = ce.BackwardDifferenceEncoder(cols=cols)
+back= enc.fit_transform(df[cols])
+backward= pd.concat([df, back], axis=1)"	
+Result in file python
+
+BaseN encoding
+import category_encoders as ce	
+"base = ce.basen.BaseNEncoder(cols=cols)
+base = enc.fit_transform(df[cols])
+base = pd.concat([df, backward], axis=1)"	
+Result in file python
+
+
+LabelEncoder	
+from sklearn.preprocessing import LabelEncoder	
+labelencoded[cols]= labelencoded[cols].apply(LabelEncoder().fit_transform)
+Result in file python
