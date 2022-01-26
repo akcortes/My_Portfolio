@@ -1,6 +1,6 @@
 # Have a look to My APP in Streamlit 🤩
 
-(I must admit I'm 💯 proud of this Lab)
+(I must admit I'm 💯 proud of these results)
 
 https://share.streamlit.io/akcortes/streamlitapp/main/untitled9.py
 
