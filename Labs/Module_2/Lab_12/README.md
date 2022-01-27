@@ -1,3 +1,3 @@
 ## Probability
 
-poisson, comparison of two samples
+Poisson Distribution, comparison of two samples
