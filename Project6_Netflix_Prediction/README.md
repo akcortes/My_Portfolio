@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this project is to practice in supervised learning using Netflix data. We need to create the model for the rating prediction. Each group will need to research and implement the defined supervised machine learning methods.
+The goal of this project is to practice in supervised learning using Netflix data. Implemented defined supervised machine learning methods.
 
 ## Supervised Machine Learning Methods
 
