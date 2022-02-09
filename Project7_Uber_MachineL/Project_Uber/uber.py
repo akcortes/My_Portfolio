@@ -20,7 +20,7 @@ import datetime
 warnings.filterwarnings("ignore")
 st.set_page_config(layout="wide")
 
-data = pd.read_csv(r"./app/my_portfolio/Project7_Uber_MachineL/final_data.csv")
+data = pd.read_csv("/app/my_portfolio/Project7_Uber_MachineL/final_data.csv")
 
 
 st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uberuber1.png", use_column_width=True)
