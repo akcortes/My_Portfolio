@@ -20,10 +20,10 @@ import datetime
 warnings.filterwarnings("ignore")
 st.set_page_config(layout="wide")
 
-data = pd.read_csv("/app/my_portfolio/Project7_Uber_MachineL/final_data.csv")
+data = pd.read_csv(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/final_data.csv")
 
 
-st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uberuber1.png", use_column_width=True)
+st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber1.png", use_column_width=True)
 colT1,colT2 = st.columns([2,8])
 
 with colT2:
@@ -31,7 +31,7 @@ with colT2:
 st.markdown("### Description")
 st.markdown("The goal of this project is to practice in unsupervised Machine learning models. We will imagine we are Uber and we want to give recommendations on where drivers should be to maximize their chances of finding a ride. We will use Machine Learning to create this recommendation algorithm.")
 
-st.sidebar.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber2.png")
+st.sidebar.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber2.png")
 st.sidebar.write("### Welcome 🚕!")
 st.sidebar.write("You can set up different display options here below")
 st.sidebar.write("")
@@ -64,7 +64,7 @@ with st.container():
         fig=px.scatter(data, x="Lat", y="Lon",color='db_clusters',title='Cluster Distribution')        
         st.plotly_chart(fig, use_container_width=True)
     with col2:
-        st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber3.jpeg", use_column_width=True)
+        st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber3.jpeg", use_column_width=True)
        
 
 with st.container():
@@ -78,7 +78,7 @@ with st.container():
 with st.container():
     st.markdown(" ")
     st.markdown("### Cluster Radio")  
-    st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/mapuber.png", use_column_width=True) 
+    st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/mapuber.png", use_column_width=True) 
     
     
 with st.container():
@@ -89,7 +89,7 @@ with st.container():
 
     
     with col1:
-        st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber4.jpeg", use_column_width=True) 
+        st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber4.jpeg", use_column_width=True) 
     
     with col2:
         d=pd.DataFrame()
@@ -106,18 +106,18 @@ if kmeans:
     with st.container():
         st.markdown(" ")
         st.markdown("### KMEANS Elbow")  
-        st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/kmeans_elbow.png", use_column_width=True)
+        st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/kmeans_elbow.png", use_column_width=True)
      
     with st.container():
         st.markdown(" ")
         st.markdown("### KMEANS Scatter")  
-        st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/KMeans6_scatter.png", use_column_width=True)
+        st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/KMeans6_scatter.png", use_column_width=True)
         
         
     with st.container():
         st.markdown(" ")
         st.markdown("### KMEANS Map")  
-        st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/kmeans_map.png", use_column_width=True)
+        st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/kmeans_map.png", use_column_width=True)
         
   
     
@@ -127,7 +127,7 @@ if hiera:
     with st.container():
         st.markdown(" ")
         st.markdown("### Dendogram")  
-        st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/HC_Dendrogram.png", use_column_width=True)
+        st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/HC_Dendrogram.png", use_column_width=True)
 
 
 
@@ -182,7 +182,7 @@ with st.container():
                 days
                 
             with col3:
-                st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber8.png", use_column_width=True)
+                st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber8.png", use_column_width=True)
                 
         with st.container():
             fig=px.bar(days, x=days.index, y="Rides",color=days.index,labels={'Rides':'Number of Rides'}, height=400,text_auto=True)
@@ -221,7 +221,7 @@ with st.container():
                 hoursd
                 
             with col3:
-                st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber7.png", use_column_width=True)
+                st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber7.png", use_column_width=True)
                 
         with st.container():
             fig=px.bar(hoursd, x=hoursd.index, y="Rides",color=hoursd.index,labels={"Rides":'Number of Rides'}, height=400,text_auto=True)
@@ -258,7 +258,7 @@ with st.container():
                 
                 
             with col2:
-                st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber9.jpeg", use_column_width=True)
+                st.image(r"/app/my_portfolio/Project7_Uber_MachineL/Project_Uber/uber9.jpeg", use_column_width=True)
                 
         with st.container():
             hourc = st.slider('Hour',min_value=0,max_value=23,step=1)
