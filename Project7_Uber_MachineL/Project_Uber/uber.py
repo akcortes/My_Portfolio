@@ -20,10 +20,10 @@ import datetime
 warnings.filterwarnings("ignore")
 st.set_page_config(layout="wide")
 
-data = pd.read_csv(r"/Users/anak/Downloads/final_data.csv")
+data = pd.read_csv(r"./app/my_portfolio/Project7_Uber_MachineL/final_data.csv")
 
 
-st.image(r"/Users/anak/Downloads/uber1.png", use_column_width=True)
+st.image(r"./app/my_portfolio/Project7_Uber_MachineL/Project_Uberuber1.png", use_column_width=True)
 colT1,colT2 = st.columns([2,8])
 
 with colT2:
