@@ -33,17 +33,24 @@ My data bootcamp took very seriously "Preparation for tomorrow is hard work toda
 •	Streamlit (Spyder)
 •	Plotly
 •	Altair
+•	DataFrame calculations
+•	Pivot and Crosstables
 •	Descriptive statistics
 •	Linear Regression
 •	Correlations 
-•	DataFrame calculations
-•	Pivot and Crosstables
-•	Hypothesis testing
-•	Machine learning
 •	Distributions
 •	Probability
 •	Forecasting
+•	Hypothesis testing
+•	Machine learning (Supervised and Unsupervised Learning)
 
+## MySQL:
+•	Queries
+•	Subqueries
+•	JOIN
+•	Data Cleaning
+•	Triggers
+•	Functions
 
 ## Tableau:
 •	Graphs
@@ -53,10 +60,4 @@ My data bootcamp took very seriously "Preparation for tomorrow is hard work toda
 •	MySQL connection
 
 
-## MySQL:
-•	Queries
-•	Subqueries
-•	JOIN
-•	Data Cleaning
-•	Triggers
-•	Functions
+
