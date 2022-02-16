@@ -59,5 +59,8 @@ My data bootcamp took very seriously "Preparation for tomorrow is hard work toda
 •	Forecasting
 •	MySQL connection
 
+## Other:
+•	R
+•	Power BI
 
 
