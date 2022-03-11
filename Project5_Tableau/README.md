@@ -1,6 +1,6 @@
 # payLOCATOR Bank transactions Analysis
 
-After Cleaning ans¡d Analysing a dataset regarding some transactions made in a period of time, I got these Dashboards with the essential information.
+After Cleaning and Analysing a dataset regarding some transactions made in a period of time, I got these Dashboards with the essential information.
 
 ## Access to Tableau Dashboards
 
