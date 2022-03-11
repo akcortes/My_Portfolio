@@ -1,4 +1,6 @@
-# Have a look to My APP in Streamlit 🤩
+# ICU Patient Survival - Prediction
+
+Have a look to My APP in Streamlit 🤩
 
 (I must admit I'm 💯 proud of these results)
 
